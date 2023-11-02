@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+}
+
+.conteudo {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.pendente {
+    background-color: #8FD14F;
+}
+
+
+.item-pendente {
+    border-color: #8FD14F;
+}
+
+.concluida {
+    background-color: #0CA789;
+}
+
+
+.item-concluida {
+    border-color: #0CA789;
+}
+
+.excluida {
+    background-color: #EB4045;
+}
+
+
+.item-excluida {
+    border-color: #EB4045;
+}
+
+a {
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+nav {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+.corpo {
+    width: 260px;
+    margin: 0 auto;
+}
+
+li {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    color: rgb(112, 112, 112);
+    transition: all 0.3s ease-in-out;
+
+    /* So aceita (Flexbox) */
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
